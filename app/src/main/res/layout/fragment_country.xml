@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.CountryFragment">
+
+        <ImageView
+            android:id="@+id/countryImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitCenter"
+            android:minHeight="200dp"
+            android:layout_marginTop="32dp" />
+        <TextView
+            android:id="@+id/countryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/countryImage"
+            android:text="Country Name"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/capitolName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/countryName"
+            android:text="Capitol Name"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/regionName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/capitolName"
+            android:text="Region Name"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/regionName"
+            android:text="Currency"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/currency"
+            android:text="Language"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"/>
+
+    </RelativeLayout>
+</layout>
